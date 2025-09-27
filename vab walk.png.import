@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm7t5npevaf1x"
-path="res://.godot/imported/tileset.png-d86fcd7b4e0464b9aee4eaf116caa3ef.ctex"
+uid="uid://y1s2tsgr6lia"
+path="res://.godot/imported/vab walk.png-ff73023e6cdbabc1fd593f7fb39507b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://vab tiles/tileset.png"
-dest_files=["res://.godot/imported/tileset.png-d86fcd7b4e0464b9aee4eaf116caa3ef.ctex"]
+source_file="res://vab sprites/vab walk.png"
+dest_files=["res://.godot/imported/vab walk.png-ff73023e6cdbabc1fd593f7fb39507b3.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bm7t5npevaf1x"
-path="res://.godot/imported/tileset.png-d86fcd7b4e0464b9aee4eaf116caa3ef.ctex"
+uid="uid://cesi88kguhjl8"
+path="res://.godot/imported/bad guy.png-08cfbf259c00fa94860cca9f43867e40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://vab tiles/tileset.png"
-dest_files=["res://.godot/imported/tileset.png-d86fcd7b4e0464b9aee4eaf116caa3ef.ctex"]
+source_file="res://bad guy.png"
+dest_files=["res://.godot/imported/bad guy.png-08cfbf259c00fa94860cca9f43867e40.ctex"]
 
 [params]
 

@@ -1,14 +1,14 @@
-[gd_scene load_steps=17 format=4 uid="uid://qettrrmxuuco"]
+[gd_scene load_steps=17 format=4 uid="uid://bq8yic0gxdne"]
 
-[ext_resource type="Script" uid="uid://c0swrpgndhi4l" path="res://player.gd" id="1_h2yge"]
-[ext_resource type="Texture2D" uid="uid://y1s2tsgr6lia" path="res://vab sprites/vab walk.png" id="2_1bvp3"]
-[ext_resource type="Texture2D" uid="uid://4507b7fjy5bp" path="res://vab sprites/vab original.png" id="3_1bvp3"]
-[ext_resource type="Texture2D" uid="uid://svqhc1nqfny3" path="res://vab sprites/vab idle.png" id="3_lquwl"]
-[ext_resource type="Texture2D" uid="uid://dujjrqpmqa4bc" path="res://vab sprites/vab blind.png" id="5_7mycd"]
-[ext_resource type="Texture2D" uid="uid://b1hnd6shqmguj" path="res://vab tiles/Screenshot 2025-09-27 at 12.05.22.png" id="5_lquwl"]
-[ext_resource type="Texture2D" uid="uid://bkwqel3kntam1" path="res://vab tiles/Screenshot 2025-09-27 at 14.27.10.png" id="6_272bh"]
-[ext_resource type="Texture2D" uid="uid://du4hdhdyyu4ty" path="res://vab tiles/transparent.png" id="8_5vw27"]
-[ext_resource type="Texture2D" uid="uid://dytu6oe4od7w6" path="res://vab tiles/real.png" id="9_kek77"]
+[ext_resource type="Script" uid="uid://c0swrpgndhi4l" path="res://player.gd" id="1_qfr6w"]
+[ext_resource type="Texture2D" uid="uid://y1s2tsgr6lia" path="res://vab sprites/vab walk.png" id="2_ia41f"]
+[ext_resource type="Texture2D" uid="uid://svqhc1nqfny3" path="res://vab sprites/vab idle.png" id="3_s0wgi"]
+[ext_resource type="Texture2D" uid="uid://4507b7fjy5bp" path="res://vab sprites/vab original.png" id="4_6v2o2"]
+[ext_resource type="Texture2D" uid="uid://dujjrqpmqa4bc" path="res://vab sprites/vab blind.png" id="5_kdwao"]
+[ext_resource type="Texture2D" uid="uid://bkwqel3kntam1" path="res://vab tiles/Screenshot 2025-09-27 at 14.27.10.png" id="6_27kqs"]
+[ext_resource type="Texture2D" uid="uid://b1hnd6shqmguj" path="res://vab tiles/Screenshot 2025-09-27 at 12.05.22.png" id="7_0wh1v"]
+[ext_resource type="Texture2D" uid="uid://du4hdhdyyu4ty" path="res://vab tiles/transparent.png" id="8_ia51v"]
+[ext_resource type="Texture2D" uid="uid://dytu6oe4od7w6" path="res://vab tiles/real.png" id="9_blycd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
 size = Vector2(35.35855, 794.8269)
@@ -17,10 +17,10 @@ size = Vector2(35.35855, 794.8269)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_1bvp3")
+"texture": ExtResource("2_ia41f")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_lquwl")
+"texture": ExtResource("3_s0wgi")
 }],
 "loop": true,
 "name": &"idle",
@@ -28,10 +28,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_1bvp3")
+"texture": ExtResource("4_6v2o2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_1bvp3")
+"texture": ExtResource("2_ia41f")
 }],
 "loop": true,
 "name": &"walk",
@@ -39,7 +39,7 @@ animations = [{
 }]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5vw27"]
-texture = ExtResource("6_272bh")
+texture = ExtResource("6_27kqs")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -210,7 +210,7 @@ texture = ExtResource("6_272bh")
 12:8/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
-texture = ExtResource("5_lquwl")
+texture = ExtResource("7_0wh1v")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -341,7 +341,7 @@ texture = ExtResource("5_lquwl")
 7:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kek77"]
-texture = ExtResource("8_5vw27")
+texture = ExtResource("8_ia51v")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -584,7 +584,7 @@ texture = ExtResource("8_5vw27")
 23:9/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4c57u"]
-texture = ExtResource("9_kek77")
+texture = ExtResource("9_blycd")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -839,7 +839,7 @@ sources/3 = SubResource("TileSetAtlasSource_4c57u")
 position = Vector2(13138, -426.00012)
 rotation = 0.060907178
 scale = Vector2(0.45805004, 0.5436624)
-script = ExtResource("1_h2yge")
+script = ExtResource("1_qfr6w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(235.79376, 265.32803)
@@ -850,7 +850,7 @@ shape = SubResource("RectangleShape2D_lquwl")
 visible = false
 position = Vector2(226, 268)
 scale = Vector2(1.9306262, 1.6953125)
-texture = ExtResource("2_1bvp3")
+texture = ExtResource("2_ia41f")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(287.99268, 322.4344)
@@ -869,7 +869,7 @@ position = Vector2(246.6946, 265.58682)
 rotation = -0.046702553
 scale = Vector2(0.38638416, 0.2938264)
 skew = -0.032701373
-texture = ExtResource("5_7mycd")
+texture = ExtResource("5_kdwao")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 position = Vector2(-1190, 187)
